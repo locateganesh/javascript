@@ -1,0 +1,106 @@
+:root {
+    --fontColor: #0f0f0f;
+    --borderColor: rgb(0 0 0 / 51%);
+}
+* {
+    box-sizing: border-box;
+}
+:focus {
+    outline: none;
+}
+:focus {
+    outline: 2px solid lime;
+}
+html {
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--fontColor);
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.font-cursive {
+    font-family: 'Dancing Script', cursive;
+}
+.page-title {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1.2px;
+}
+/* .form-container{
+    max-width: fit-content;
+    margin: auto;
+} */
+.form-group {
+    display: flex;
+}
+.text-label {
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.field-input {
+    width: 100%;
+}
+.field-input, .field-button {
+    padding: 5px 10px; 
+    font-family: inherit;
+    font-size: inherit;
+}
+.field-button {
+    margin-left: 8px;
+}
+.example {
+    font-weight: 400;
+    font-size: small;
+}
+button {
+    cursor: pointer;
+}
+.list {
+    margin:20px 0 100px;
+    padding: 0;
+}
+.list li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid var(--borderColor);
+}
+.list li:first-child {
+    border-top:1px solid var(--borderColor);
+}
+.list li.done span {
+    text-decoration: line-through;
+}
+.list li span {
+    display: block;
+    flex: 1;
+    padding:8px 0 10px;
+}
+.list li input {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 0;
+}
+.list li button {
+    background: transparent url(./icons8-delete.svg) no-repeat center;
+    background-size: 30px 30px;
+    border: none;
+    padding:0;
+    width: 32px;
+    height:32px;
+}
+.sr-only {
+    position: absolute;
+    left: -99999px;
+    top:0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
