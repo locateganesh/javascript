@@ -1,0 +1,94 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "Chocolate Frosted Doughnut",
+            "price": 135,
+            "image": "./images/product-1.jpg",
+            "rating": 4,
+            "review": 123
+        },
+        {
+            "id": 2,
+            "title": "The Original Super Donut",
+            "price": 950,
+            "image": "./images/product-2.jpg",
+            "rating": 5,
+            "review": 22
+        },
+        {
+            "id": 3,
+            "title": "Old-fashioned Doughnut",
+            "price": 750,
+            "image": "./images/product-3.jpg",
+            "rating": 3,
+            "review": 48
+        },
+        {
+            "id": 4,
+            "title": "Cream-Filled Doughnut",
+            "price": 999,
+            "image": "./images/product-4.jpg",
+            "rating": 5,
+            "review": 10000
+        },
+        {
+            "id": 5,
+            "title": "Glazed Doughnut",
+            "price": 250,
+            "image": "./images/product-5.jpg",
+            "rating": 0,
+            "review": null
+
+        },
+        {
+            "id": 6,
+            "title": "Strawberry Frosted Doughnut",
+            "price": 850,
+            "image": "./images/product-6.jpg",
+            "rating": 1,
+            "review": 1
+
+        },
+        {
+            "id": 7,
+            "title": "Boston Kreme Pie Doughnut",
+            "price": 600,
+            "image": "./images/product-7.jpg",
+            "rating": 4,
+            "review": 501
+        },
+        {
+            "id": 8,
+            "title": "Sour Cream Doughnut",
+            "price": 350,
+            "image": "./images/product-8.jpg",
+            "rating": 5,
+            "review": 203
+        },
+        {
+            "id": 9,
+            "title": "Blueberry Doughnut",
+            "price": 799,
+            "image": "./images/product-8.jpg",
+            "rating": 2,
+            "review": 100
+        },
+        {
+            "id": 10,
+            "title": "Jelly Doughnut",
+            "price": 150,
+            "image": "./images/product-9.jpg",
+            "rating": 5,
+            "review": 1
+        },
+        {
+            "id": 11,
+            "title": "Chocolate Frosted Doughnut",
+            "price": 650,
+            "image": "./images/product-7.jpg",
+            "rating": 0,
+            "review": null
+        }
+    ]
+}
